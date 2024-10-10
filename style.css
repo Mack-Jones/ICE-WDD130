@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Arial&family=Merriweather&display=swap');
+
+
+
+body  {background-color: lightblue}    
+
+.page{
+    font-family: Arial;
+    width: 400px;
+    margin: 5px auto;
+    padding: 25px;
+    background-color:crimson;
+border: 2px solid aliceblue;
+}
+
+.Edu{
+text-align: center;
+font-weight: bolder;
+}
+.quote{
+font-family: Merriweather;
+font-size: 0.75em;
+color:aliceblue;
+text-align: center;
+}
+
+.cite{
+color:aliceblue;
+text-align: center;
+font-weight: bold;
+}
+
+.list{
+font-weight: bold;
+}
+
+.bigquote{
+    font-size: 2em;
+    color:aliceblue;
+    text-align: center;
+    font-family: Merriweather;
+}
+
+.foot{
+    text-align: center;
+}
+
+.img {
+    display: block;
+margin: auto;
+padding: auto;
+
+}
