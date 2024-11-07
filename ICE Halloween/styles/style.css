@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nosifer&display=swap');
+body{
+    background-image: url("halloween_wallpaper.png");
+    background-position: center;
+}
+
+.Heroimg{
+    width: 592px;
+    height: 591px;
+    margin:auto;
+justify-items: center;
+padding:auto;
+border-radius: 50px;
+border-width:8px;
+border-style: solid;
+
+border-color: #050520;
+}
+
+.img{
+    width: 592px;
+    height: 591px;
+border-radius: 50px;   
+margin-top: -8px;
+display:inline;
+border-width: 8px;
+border-style: dashed;
+border-color: #ff8d3c;
+}
+
+
+h1{
+font-family:"Butcherman";
+color: #ff8d3c;
+margin: 150px, auto;
+text-align: center;
+text-shadow: 0px 5px 16px #000000;
+text-shadow: 0px 5px 16px #000000;
+font-size: 5em;
+}
+
+ul{
+font-family: "Nosifer";
+color: #ff5424;
+text-align: center;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+list-style-type: none;
+}
