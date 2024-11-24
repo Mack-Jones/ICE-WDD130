@@ -1,0 +1,133 @@
+.formCard{
+    width: 30vw;
+    height: 50vw;
+    background-color: #fce5cdff;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    box-sizing: border-box;
+    border-radius: 2vw;
+    overflow: hidden;
+}
+
+
+form{
+    
+    grid-row: 2;
+    display: grid;
+    width: 100%;
+    padding: 3vw;
+    box-sizing: border-box;
+}
+input[type=text],[type=tel],[type=email]{
+    width: 100%;
+    height: 2em;
+    display: flex;
+    border: none;
+    background-color: #bf956aff;
+    border-radius: 0.5vw;
+}
+
+
+
+button[type=submit]{
+
+    background-color:#bf956aff;
+}
+
+.Top{
+    height: 100%;
+    width: 100%;
+    background-color:  #bf956aff;
+    grid-row: 1;
+    display: grid;
+    box-sizing: border-box;
+    grid-column: 70%, 30%;
+}
+.TopTitle{
+    background-color:rgb(72, 72, 72);
+    display: grid;
+    grid-column: 1;
+    width: 70%;
+    padding-left: 3vw;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* Hide default input elements */
+input[type="radio"], input[type="checkbox"] {
+    display: none;
+  }
+  
+  /* Style the labels to look like custom radio buttons/checkboxes */
+  .checker{
+    cursor: pointer;
+    padding-left: 30px;
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 20px;
+    font-size: 16px;
+  }
+  
+  /* Custom radio button appearance */
+  label:before {
+    content: '';
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  /* Custom checkbox appearance */
+  input[type="checkbox"] + label:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  /* When radio button is checked */
+  input[type="radio"]:checked + label:before {
+    background-color: #bf956aff; /* Green background */
+    border-color: rgb(72, 72, 72); /* Green border */
+  }
+  
+  /* When checkbox is checked */
+  input[type="checkbox"]:checked + label:before {
+    background-color: #FF5733; /* Orange background */
+    border-color: #FF5733; /* Orange border */
+  }
+  
+  /* When radio button is checked, show a check mark */
+  input[type="radio"]:checked + label:after {
+    content: '✔';
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    font-size: 14px;
+    color: white;
+  }
+  
+  /* When checkbox is checked, show a check mark */
+  input[type="checkbox"]:checked + label:after {
+    content: '✔';
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    font-size: 14px;
+    color: white;
+  }
